@@ -9,7 +9,7 @@ struct Book{
 int main(int argc, char *argv[])
 {
     int i;
-    struct Book**bookshelf;
+    struct Book **bookshelf;
     
     bookshelf = (struct Book**)malloc(3*sizeof(struct Book*));    
     for(i=0; i<3; i++)
